@@ -1,4 +1,4 @@
-![](https://i.imgur.com/hGEeDR1.png)
+***![](https://i.imgur.com/hGEeDR1.png)
 
 # JavaScript Functions Lab
 
