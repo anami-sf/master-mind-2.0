@@ -6,6 +6,7 @@ btn.addEventListener("click", function(evt) {
     const list = document.querySelector('ul')
     li.textContent = input.value
     list.appendChild(li)
+    input.value = " "
 
     console.log(li);  
 })
