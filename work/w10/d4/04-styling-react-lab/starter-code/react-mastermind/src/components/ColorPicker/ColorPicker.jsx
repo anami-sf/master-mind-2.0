@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ColorPicker.module.css';
 
 const ColorPicker = (props) => (
-  <div>
+  <div className="flexV">
     {props.colors.map((color, idx) =>
       <button
         key={color}

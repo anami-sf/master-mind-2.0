@@ -44,14 +44,14 @@ class App extends Component {
   render() {
     let winTries = this.getWinTries();
     return (
-      <div className="App">
+      <div className="App flexV">
         <header className="App-header">React Mastermind</header>
         <div className="flex-h">
           <GameBoard
             colors={colors}
             guesses={this.state.guesses}
           />
-          <div>
+          <div className="flexV controls">
             <ColorPicker
               colors={colors}
               selColorIdx={this.state.selColorIdx}

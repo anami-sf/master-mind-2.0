@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
+import styles from './GameTimer'
+
 
 const GameTimer = (props) => (
-    <div>
-        GameTimer
+    <div >
+        GameTimerBlah
     </div>
-);
+)
 
-export default GameTimer;
+export default GameTimer

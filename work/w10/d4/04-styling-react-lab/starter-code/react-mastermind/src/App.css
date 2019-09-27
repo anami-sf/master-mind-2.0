@@ -4,12 +4,46 @@
 }
 
 .App-header {
-  background-color: #222;
+  font-family: 'Roboto Mono', monospace;
   height: 50px;
   padding: 10px;
-  color: white;
+  color: gray;
   font-size: 22px;
   text-align: center;
 }
+
+.controls {
+  margin: 20px;
+}
+
+.GameBoard {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.peg {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-width: 14px;
+  border-radius: 50%;
+  opacity: 0.85;
+  cursor: pointer;
+  
+}
+
+.flexV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+footer {
+  margin: 25px;
+  font-size: 20px;
+  color: gray;
+}
+
 
 

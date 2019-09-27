@@ -1,9 +1,9 @@
 import React from 'react';
 
 const GuessPeg = (props) => (
-  <div>
-    {props.color}
-  </div>
+
+  <div className="peg" style={{backgroundColor: props.color}} />
+
 );
 
 export default GuessPeg;
