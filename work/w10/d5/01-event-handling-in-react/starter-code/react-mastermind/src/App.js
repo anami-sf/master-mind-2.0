@@ -15,7 +15,7 @@ class App extends Component {
     // in its properties
     this.state = {
       selColorIdx: 0,
-      guesses: [this.getNewGuess(), this.getNewGuess(), this.getNewGuess(), this.getNewGuess()],
+      guesses: [this.getNewGuess()],
       code: this.genCode()
     };
   }
