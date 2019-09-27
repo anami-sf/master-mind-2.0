@@ -37,11 +37,11 @@ This lab **is a deliverable**.
 
 5. `git init` and make your initial commit.
 
-6. Create a remote repo in your **personal** GitHub account and add the remote (`origin`) to the local repo.
+6. Create a new remote repo in your **personal** GitHub account, however, **do not** check the "Initialize this repository with a README" box (this avoids a conflict with your local repo). Next, follow the instructions for pushing an existing repository, e.g.:
 
-7. `git push origin master`
+<img src="https://i.imgur.com/GroeGoa.png">
 
-8. Code away!
+7. Code away!
 
 ### Requirements
 
@@ -51,7 +51,7 @@ This lab **is a deliverable**.
 	
 2. Code the following _user stories_, using jQuery where possible:
 
-	- As a User (AAU), I don't want to see any developer skills in the list so that I can start with a fresh slate.
+	- As a User (AAU), I don't want to see any developer skills when the page first loads so that I can start with a fresh slate.
 
 	- AAU, I want to be able to type in a skill and have it added to my list of skills by clicking a button.
 
